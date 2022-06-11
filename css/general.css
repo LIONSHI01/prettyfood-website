@@ -25,6 +25,11 @@ COLOR
 - Shadow: #cf711f
 - Tint: #fdf2e9
 
+TAG COLOR
+- Vegatarian : #51cf66
+- Vagan: #8ce99a
+- Pablo: #fcc419
+
 GREYS
 #555
 #333
@@ -32,8 +37,16 @@ GREYS
 
 
 SHADOWS
+- 
+
+
+
 
 BORDER-RADIUS
+- 0.9rem
+
+
+
 
 ---05 whitespace
 SPACING SYSTEM (px)
@@ -54,6 +67,11 @@ html {
 body {
   font-family: "rubik", sans-serif;
 }
+
+strong {
+  font-weight: 600;
+}
+
 /* ******************************** */
 /* GENERAL */
 /* ******************************** */
@@ -72,6 +90,10 @@ body {
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid--v {
