@@ -430,20 +430,67 @@
   margin: 9.6rem 0;
 }
 .pricing-box {
+  background-color: #fdf2e9;
+  width: 75%;
+  padding: 3.6rem;
+  border-radius: 1.2rem;
 }
 .pricing-details {
 }
 .pricing-plan {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #cf711f;
+  text-transform: uppercase;
 }
 .pricing-price {
+  text-align: center;
+  font-size: 6.4rem;
+  font-weight: 600;
 }
+.pricing-price span {
+  font-size: 3.6rem;
+  margin-right: 1.2rem;
+}
+
 .pricing-description {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #777;
 }
 .pricing-plan-info {
 }
 .plan-list {
+  margin-top: 4.8rem;
+  padding: 0 1.2rem;
+
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 }
 .list-item {
+  font-size: 1.8rem;
+  color: #333;
 }
 .plan-sign-up {
+  display: flex;
+  justify-content: center;
+}
+
+.btn--signup:link,
+.btn--signup:visited {
+  margin-top: 4.8rem;
+  border-radius: 0.9rem;
+  padding: 1.2rem 3.6rem;
+  background-color: #e67e22;
+  color: #fff;
+
+  transition: all 0.3s;
+}
+
+.btn--signup:hover,
+.btn--signup:active {
+  background-color: #cf711f;
 }
