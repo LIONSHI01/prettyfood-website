@@ -609,25 +609,55 @@
         </div>
       </section>
       <section class="section-cta">
-        <div class="container grid grid--2-cols">
-          <div class="cta-content-box">
-            <div class="cta-text-box">
-              <h2 class="cta-heading">Get your first meal for free</h2>
-              <p class="cta-text">
-                Healthy, tasty and hassle-free meals are waiting for you. Start
-                eating well today. You can cancel or pause anytime. And the
-                first meal is on us!
-              </p>
+        <div class="container">
+          <div class="cta">
+            <div class="cta-content-box">
+              <div class="cta-text-box">
+                <h2 class="cta-heading">Get your first meal for free</h2>
+                <p class="cta-text">
+                  Healthy, tasty and hassle-free meals are waiting for you.
+                  Start eating well today. You can cancel or pause anytime. And
+                  the first meal is on us!
+                </p>
+              </div>
+              <form class="cta-form-box grid grid--2-cols">
+                <div class="form-item">
+                  <label class="form-label" for="name">Full Name</label>
+                  <input
+                    class="form-input"
+                    id="name"
+                    type="text"
+                    placeholder="John Smith"
+                  />
+                </div>
+                <div class="form-item">
+                  <label class="form-label" for="email">Email address</label>
+                  <input
+                    class="form-input"
+                    id="email"
+                    type="text"
+                    placeholder="me@example.com"
+                  />
+                </div>
+                <div class="form-item">
+                  <label class="form-label" for="hear-from"
+                    >Where did you hear from us?</label
+                  >
+                  <select class="form-input" name="" id="hear-from">
+                    <option>Please choose one option:</option>
+                    <option value="friends and family">
+                      Friends and family
+                    </option>
+                    <option value="facebook">Facebook and video</option>
+                    <option value="Podcast">Podcast</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+                <button class="sign-up-btn">Sign up now</button>
+              </form>
             </div>
-            <form class="cta-form-box">
-              <label for="name"></label>
-              <input id="name" type="text" placeholder="John Smith" />
-              <input id="email" type="text" placeholder="me@example.com" />
-              <select name="" id="hear-from"></select>
-              <button class="sign-up-btn">sign up now</button>
-            </form>
+            <div class="cta-img-box"></div>
           </div>
-          <div class="cta-img-box">image</div>
         </div>
       </section>
     </main>
