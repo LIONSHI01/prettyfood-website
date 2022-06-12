@@ -143,20 +143,6 @@
 .section-how {
   padding: 9.6rem 0;
 }
-.subheading {
-  text-align: center;
-  font-size: 2rem;
-  color: #cf711f;
-  margin-bottom: 1.8rem;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.heading-secondary {
-  text-align: center;
-  font-size: 4.2rem;
-  letter-spacing: -1px;
-  color: #555;
-}
 
 .step-text-box {
   padding: 3.6rem;
@@ -378,14 +364,11 @@
 .testinmonal-box {
   display: grid;
   grid-template-columns: 55fr 45fr;
-  /* padding: 0 4.8rem; */
-  /* gap: 9.6rem; */
-  /* justify-content: center; */
+
   align-items: center;
 }
 
 .feedbacks-container {
-  /* padding: 9.6rem; */
   margin-top: 9.6rem;
   row-gap: 4.8rem;
   column-gap: 4.8rem;
@@ -417,19 +400,50 @@
 
   justify-content: center;
   align-items: center;
-  column-gap: 2.4rem;
-  row-gap: 2.4rem;
+  column-gap: 1.6rem;
+  row-gap: 1.6rem;
+  padding: 1.6rem;
 }
 
 .gallary-img-box {
-  /* height: 20rem;
-  width: 20rem; */
+  overflow: hidden;
 }
 .gallary-img {
   display: block;
-  height: 100%;
+  width: 100%;
+
+  transition: all 0.4s;
+}
+
+.gallary-img:hover {
+  transform: scale(1.1);
 }
 
 .testimonial-heading-adjustments {
   text-align: left;
+}
+
+/* ******************************** */
+/* PRCING  SECTION */
+/* ******************************** */
+.section-pricing {
+  margin: 9.6rem 0;
+}
+.pricing-box {
+}
+.pricing-details {
+}
+.pricing-plan {
+}
+.pricing-price {
+}
+.pricing-description {
+}
+.pricing-plan-info {
+}
+.plan-list {
+}
+.list-item {
+}
+.plan-sign-up {
 }
