@@ -1,0 +1,24 @@
+@media (max-width: 56em) {
+  .header {
+    position: relative;
+  }
+  .main-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.768);
+  }
+  .main-nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .icon-mobile-nav {
+  }
+}
